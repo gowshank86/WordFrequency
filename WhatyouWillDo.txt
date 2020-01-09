@@ -1,0 +1,4 @@
+The Engineering Licensing Office is looking for a QA engineer to join our organization 
+The focus of the role is testing the functionality of the on premise licensing solution that spans across all of Cisco’s products
+You will work build the test cases and the automation test suites for the smart licensing solution in an Agile development environment 
+You will be the QA engineer on a scrum team with backend developers and UI engineers working together to deliver feature functionality

@@ -1,0 +1,3 @@
+The Engineering Licensing Office at Cisco perform centralized development of a new Cloud-Based Software Licensing Platform, licensing libraries, APIs, and policies. 
+Our Primary Projects include a standardized software plugin that operates in all Cisco products, Test Harness Systems, and on prem License Managers. 
+If you have ever wanted a role that touches everything Cisco develops, this is it.
