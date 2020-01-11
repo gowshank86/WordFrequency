@@ -18,6 +18,7 @@ Pre-requisite: Please run with jre 1.8.0 and above
  
 3. Enter file name "InputFileName.txt" for user input and hit enter
 4. Validate Total word count and count of each word in below listed files is shown in the console window
-  File # 1: SampleTest-ReadFile.txt
-  File # 2: WhatyouWillDo.txt
-  File # 3: WhoYouWorkWith.txt
+
+   - File # 1: SampleTest-ReadFile.txt
+   - File # 2: WhatyouWillDo.txt
+   - File # 3: WhoYouWorkWith.txt
