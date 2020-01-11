@@ -13,11 +13,12 @@ public class ScannerMethod {
 		Scanner input = new Scanner (System.in);
 		
 		System.out.print("Enter the source file name: ");
-		String fileName = input.next();
-		
-		// Get the name of the file added  to project root folder
+		String fileName = input.next(); // user input to read filename
+
+		// S1: Pass fileName to readFileName method and add it to ArrayList ipFileName
+		ArrayList <String> ipFileName = readFileName(fileName); 
+			
 		Map<String,Integer> countByWord = new HashMap<String,Integer> ();
-		ArrayList <String> ipFileName = readFileName(fileName);
 		
 		for (int i =0; i< ipFileName.size(); i++) {
 			
@@ -58,8 +59,7 @@ public class ScannerMethod {
 				processFileName.add(line);
 				totalFileCount++;
 				//System.out.println(line);
-			}
-			
+			}		
 		}
 		System.out.println("Total number of lines in the file: " +totalFileCount + "\n" );
 		in.close();
@@ -84,13 +84,10 @@ public class ScannerMethod {
 			if(!(line.equals(""))) {
 				String[] wordListArray = line.split("\\s+");
 				totalWordCount += wordListArray.length;	
-			}
-			
+			}			
 		}
-		
 		System.out.println("\n"+"Total number of words in the file is: " + totalWordCount);
-		in.close();
-		
+		in.close();	
 	}
 	
 	// Step 3: Create a method to identify total count by words
